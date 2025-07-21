@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hava Durumu Uygulaması</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+</head>
+<body>
+    <div id="particles-js"></div>
+    <div class="container">
+        <header>
+            <h1>Hava Durumu</h1>
+            <div class="search-container">
+                <input type="text" id="search-input" placeholder="Şehir adı girin...">
+                <button id="search-btn"><i class="fas fa-search"></i></button>
+            </div>
+        </header>
+
+        <main>
+            <div class="weather-card">
+                <div class="location">
+                    <h2 id="city-name">Şehir Adı</h2>
+                    <p id="date">Tarih</p>
+                </div>
+
+                <div class="weather-info">
+                    <div class="temperature">
+                        <img id="weather-icon" src="https://openweathermap.org/img/wn/01d@2x.png" alt="Hava durumu ikonu">
+                        <span id="temp">--°C</span>
+                    </div>
+                    <div class="details">
+                        <p id="weather-desc">Açıklama</p>
+                        <div class="extra-info">
+                            <p><i class="fas fa-wind"></i> Rüzgar: <span id="wind">-- km/s</span></p>
+                            <p><i class="fas fa-tint"></i> Nem: <span id="humidity">--%</span></p>
+                            <p><i class="fas fa-temperature-low"></i> Hissedilen: <span id="feels-like">--°C</span></p>
+                            <p><i class="fas fa-tachometer-alt"></i> Basınç: <span id="pressure">-- hPa</span></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="hourly-forecast">
+                <h3>Saatlik Tahmin</h3>
+                <div class="hourly-container" id="hourly-container">
+                    <!-- JavaScript ile doldurulacak -->
+                </div>
+            </div>
+
+            <div class="forecast">
+                <h3>5 Günlük Tahmin</h3>
+                <div class="forecast-container" id="forecast-container">
+                    <!-- JavaScript ile doldurulacak -->
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <p>Hava Durumu Uygulaması &copy; 2025</p>
+        </footer>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
