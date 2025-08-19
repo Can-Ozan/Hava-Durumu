@@ -24,6 +24,11 @@
 - **Particles.js** - Arkaplan efektleri
 - **Font Awesome** - İkonlar
 
+## 🖼️ Project Screenshots
+
+### Main Interface
+![SwiftNote Studio Interface](/images/arayüz.png)
+
 ## 🚀 Kurulum
 
 1. **Depoyu klonlayın:**
